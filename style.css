@@ -425,7 +425,9 @@
     text-align: left;
     margin-right: 40px; }
   .text__footer {
-    display: flex; } }
+    display: flex; }
+  .line__footer {
+    margin-bottom: 32px !important; } }
 
 @media (min-width: 1440px) {
   .footer__up {
