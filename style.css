@@ -127,11 +127,16 @@
   z-index: 3;
   width: 320px; }
 
+.menu__burger--container {
+  height: 676px; }
+
 .open__menuburger {
   display: block;
   transition: right 0.3s, transform 0.3s ease-in; }
 
 @media (min-width: 768px) {
+  .menu__burger--container {
+    height: 1024px; }
   .swipe__text {
     padding-bottom: 32px; }
   .swipe__text:last-child {
@@ -160,7 +165,7 @@
     display: block;
     box-shadow: none; }
   .menu__burger--container {
-    height: 2000px; }
+    height: 2032px; }
   .menuburger__cancel {
     display: none; }
   .menuburger__group {
@@ -174,12 +179,10 @@
 .call__burger {
   width: 320px;
   height: 676px;
-  height: 100%;
   background: #fff;
   position: absolute;
   z-index: 3;
   top: 0;
-  right: 0;
   display: none; }
 
 .call__cancel {
@@ -229,6 +232,7 @@
   .call__burger {
     width: 440px;
     height: 940px;
+    right: 0;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
   .input__call {
     width: 360px;
