@@ -125,14 +125,13 @@
   left: 0;
   display: none;
   z-index: 3;
-  width: 320px; }
+  width: 100%; }
 
 .menu__burger--container {
-  height: 676px; }
+  height: 700px; }
 
 .open__menuburger {
-  display: block;
-  transition: right 0.3s, transform 0.3s ease-in; }
+  display: block; }
 
 @media (min-width: 768px) {
   .menu__burger--container {
@@ -163,7 +162,8 @@
 @media (min-width: 1440px) {
   .aside {
     display: block;
-    box-shadow: none; }
+    box-shadow: none;
+    width: 320px; }
   .menu__burger--container {
     height: 2032px; }
   .menuburger__cancel {
@@ -177,7 +177,7 @@
     opacity: 1; } }
 
 .call__burger {
-  width: 320px;
+  width: 100%;
   height: 676px;
   background: #fff;
   position: absolute;
@@ -255,7 +255,7 @@
     margin: 16px 32px 0 272px; } }
 
 .chat__burger {
-  width: 320px;
+  width: 100%;
   height: 676px;
   background: #fff;
   position: absolute;
